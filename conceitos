@@ -1,0 +1,15 @@
+Quando usamos o React, trabalhamos com os componentes que utilizam código HTML diretamente do código Javascript.
+Até poderia ser usado as funções do próprio React para isso, mas, como vimos, acabaríamos com um código complicado de ler.
+O JSX nos ajuda justamente nisso, permitindo que escrevamos código "html" que na verdade vai ser convertido para Javascript
+exigido pelo React. Por sinal, essa conversão só é possível porque já está habilitado o React JSX Transform, do Babel.
+Confira aqui => http://babeljs.io/docs/plugins/transform-react-jsx/
+
+Entender o ciclo de vida do React é muito importante. São essas funções que te dão a chance de interagir com ele.
+Na maior parte da sua vida, você vai utilizar o "render" e o "componentDidMount".
+Justamente porque em um você declara o componente em si e no outro você carrega o que pode ser necessário para ele.
+Entretanto, quando seu projeto evoluir e ficar maior,
+talvez surja a necessidade você ter que lidar com outras funções do ciclo de vida, como a "shouldComponentUpdate".
+Ela indica para o React se seu componente deve ser renderizado e por default retorna true.
+Numa tela super complexa, evitar invocações desnecessárias para o render, pode fazer diferença.
+Esses detalhes mais avançados, vão ficar para um segundo curso,
+ainda temos muito do básico do React para ver nesse primeiro curso!

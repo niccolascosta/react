@@ -2,3 +2,6 @@
 /.idea
 /react/node_modules
 /react/cdc-admin/node_modules
+/react/cdc-admin/build
+/cdcadmin-api/.idea
+/cdcadmin-api/target
